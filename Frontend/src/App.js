@@ -1,27 +1,33 @@
 import "./App.css";
 import Signin from "./pages/Signin/Signin";
 import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
   BrowserRouter,
-  Navigate,
+  Routes,
+  Route
 } from "react-router-dom";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import EmployeeDetails from "./pages/EmployeeDetails/EmployeeDetails";
 import DepartmentDetails from "./pages/DepartmentDetails/DepartmentDetails";
-import { useState } from "react";
+import NavBar from "./components/NavBar/NavBar";
+import ProtectedRoute from "./ProtectedRoute";
+import { useSelector } from "react-redux";
 
 function App() {
-  const [userLogged, setUserLogged] = useState(false);
+  const user=useSelector(state=>state.user)
+  
   return (
     <BrowserRouter>
+    <NavBar />    
       <Routes>
-      <Route path="/" element={userLogged?<Navigate replace to="/Dashboard" />:<Navigate replace to="/Signin"/>} />
-        <Route path="Signin" element={<Signin />} />
-        <Route path="Dashboard" element={<Dashboard />} />
-        <Route path="Employee-detail" element={<EmployeeDetails />} />
-        <Route path="Department-detail" element={<DepartmentDetails />} />
+        
+        <Route path="signin" element={<Signin />} />
+        
+        <Route path="/" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+
+        <Route path="employee-detail" element={<EmployeeDetails />} />
+
+        <Route path="department-detail" element={<DepartmentDetails />} />
+
       </Routes>
     </BrowserRouter>
   );
