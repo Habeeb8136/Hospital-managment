@@ -1,0 +1,34 @@
+.department-details-container{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+.details-right{
+    width: 40%;
+}
+.details-right img{
+    width: 100%;
+}
+.list{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width:600px){
+    .department-details-container{
+        padding: 50px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+    .details-right{
+        width: 100%;
+    }
+    .details-right img{
+        width: 100%;
+    }
+    .list{
+        width: 95%;
+    }
+}
