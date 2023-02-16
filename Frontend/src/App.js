@@ -10,10 +10,12 @@ import EmployeeDetails from "./pages/EmployeeDetails/EmployeeDetails";
 import DepartmentDetails from "./pages/DepartmentDetails/DepartmentDetails";
 import NavBar from "./components/NavBar/NavBar";
 import ProtectedRoute from "./ProtectedRoute";
-import { useSelector } from "react-redux";
+import Employees from "./pages/Employees/Employees";
+import Departments from "./pages/Departments/Departments";
+import DepartmentHeads from "./pages/DepartmentHeads/DepartmentHeads";
+
 
 function App() {
-  const user=useSelector(state=>state.user)
   
   return (
     <BrowserRouter>
@@ -27,6 +29,12 @@ function App() {
         <Route path="employee-detail" element={<EmployeeDetails />} />
 
         <Route path="department-detail" element={<DepartmentDetails />} />
+
+        <Route path="employees" element={<Employees />} />
+
+        <Route path="departments" element={<Departments />} />
+
+        <Route path="heads" element={<DepartmentHeads />} />
 
       </Routes>
     </BrowserRouter>
