@@ -1,0 +1,48 @@
+.nav{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+.menu-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 5px;
+}
+.menu-nav div{
+    background-color: rgb(231, 231, 231);
+}
+a{
+    text-decoration: none;
+    color: initial;
+}
+.toggle-menu{
+    
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 85vh;
+}
+
+.toggle-menu div{
+    color: white;
+}
+.menu-item{
+    background-color: rgb(35, 35, 40);
+    opacity: 0.9;
+    padding: 5px;
+    margin: 5px;
+    transition: 0.2s;
+}
+.menu-item:hover{
+    transform: scale(1.05);
+    opacity: 1;
+}
+.menu-item:active{
+    transform: scale(1.05);
+    opacity: 9;
+}
+
