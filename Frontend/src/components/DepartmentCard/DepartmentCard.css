@@ -8,6 +8,7 @@
     padding-inline: 10px;
     box-shadow: 2px 2px 8px grey;
     cursor: pointer;
+    border-radius: 0.5rem;
     
 }
 .card-left{

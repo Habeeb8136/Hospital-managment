@@ -9,7 +9,7 @@
 .details-left a{
     
     color: blue;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 .details-right{
     width: 50%;

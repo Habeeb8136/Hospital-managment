@@ -6,12 +6,14 @@
     justify-content: space-between;
     padding: 10px;
     padding-inline: 10px;
-    box-shadow: 2px 2px 8px grey;
+    box-shadow: 2px 2px 5px grey;
     cursor: pointer;
+    border-radius: 0.5rem;
+    margin: 5px;
     
 }
 .employee-card-head{
-    border: 5px solid yellow;
+    background-color: rgb(218, 211, 167);
 }
 .card-left{
     width: 80%;
