@@ -23,7 +23,7 @@ const EmployeeCard = ({employee}) => {
             <div className='card-left'>
                 <p>Name : <strong>{employee.name}</strong></p>
                 <p>Phone : <strong>{employee.phone}</strong></p>
-                <p>Department : <strong>{employee.department.name}</strong></p>
+                <p><strong>{employee.department.name}</strong></p>
                 {employee.head.status&& <strong className='headof'>head of {employee.department.name} </strong>}
             </div>
             

@@ -1,5 +1,5 @@
 .employee-details-container{
-    padding: 50px;
+    padding: 30px;
     display: flex;
     justify-content: center;
 }
@@ -24,7 +24,7 @@
 
 @media screen and (max-width:600px){
     .employee-details-container{
-        padding: 50px;
+        padding: 30px;
         display: flex;
         flex-direction: column-reverse;
         justify-content: space-between;
