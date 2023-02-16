@@ -1,0 +1,34 @@
+.employee-card{
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-inline: 10px;
+    box-shadow: 2px 2px 8px grey;
+    cursor: pointer;
+    
+}
+.employee-card-head{
+    border: 5px solid yellow;
+}
+.card-left{
+    width: 80%;
+    font-size: 15px;
+    line-height: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.headof{
+    color: green;
+    text-align: right;
+}
+.card-right{
+    position: relative;
+    border: 1px solid black;
+}
+img{
+    width: 50px;
+}
