@@ -5,8 +5,11 @@ import DepartmentCard from '../../components/DepartmentCard/DepartmentCard';
 
 
 const Departments = () => {
-    const [department, setDepartment] = useState(data);
+    const [department, setDepartment] = useState();
 
+    useEffect(() => {
+       setDepartment(data)
+    }, []);
    
     return (
         <div className='department-container'>
@@ -16,7 +19,6 @@ const Departments = () => {
             {department?.map((department)=>
                     <DepartmentCard department={department} key={department.id}/>
             )}
-            
         </div>
     );
 }
