@@ -1,0 +1,81 @@
+.dash{
+    justify-content: center;
+    padding: 50px;
+    display: flex;
+    background-color: black;
+
+    
+}
+.selector-department,.selector-employees,.selector-heads{
+    height: max-content;
+    width: 30%;
+    background-color: rgb(229, 229, 229);
+    transition: 0.1s;
+    padding-bottom: 10px;
+    overflow-x: auto;
+} 
+/* .selector-department:hover,.selector-employees:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+   
+} */
+
+.selector-department{
+    background-color: rgb(63, 63, 63);
+    /* background-image: url('https://t4.ftcdn.net/jpg/01/52/28/21/360_F_152282169_12kQ4809SMohuittmEWKE95hU9NLpVWh.jpg'); */
+    background-size: cover;
+    
+}
+
+.selector-employees{
+    /* background-image: url('https://img.freepik.com/free-vector/medical-good-team-hospital-staff-doctors-nurse-illustration_1284-53038.jpg'); */
+    background-size: cover;
+    background-color: rgb(52, 52, 52);
+}
+
+.selector-heads{
+    background-color: rgb(63, 63, 63);
+    /* background-image: url(''); */
+    background-size: cover;
+}
+
+/* .dept{
+    backdrop-filter: blur(2px);
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+} */
+/* .dept:hover{
+    backdrop-filter: blur(20px);
+} */
+
+@media screen and (max-width:600px) {
+    .dash{
+        
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .selector-department,.selector-employees,.selector-heads{
+        width: 90%;
+        background-color: rgb(45, 45, 45);
+        transition: 0.1s;
+        padding-bottom: 10px;
+       
+    } 
+    
+}
+/* width */
+.selector-employees::-webkit-scrollbar , .selector-department::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  
