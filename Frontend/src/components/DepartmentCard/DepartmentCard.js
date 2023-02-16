@@ -18,7 +18,7 @@ const DepartmentCard = ({department}) => {
         <Link to='/department-detail'>
          <div className='department-card' onClick={()=>handleClick(department)}>
            <div className='card-left'>
-                <p>Department Name: <strong>{department.name}</strong></p>
+                <p><strong>{department.name}</strong></p>
             </div>
 
             <div className='card-right'>
