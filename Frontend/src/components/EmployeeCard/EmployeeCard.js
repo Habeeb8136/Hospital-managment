@@ -8,6 +8,10 @@ const EmployeeCard = ({employee}) => {
     const dispatch=useDispatch()
 
     async function handleClick(employee){
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+          });
         dispatch(updateEmployee(employee))
         console.log(employee.name)
          return <Navigate to='employee-detail' />

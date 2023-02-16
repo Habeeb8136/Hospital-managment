@@ -9,6 +9,10 @@ const DepartmentCard = ({department}) => {
     const dispatch=useDispatch()
 
     function handleClick(department){
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+          });
         dispatch(updateDepartment(department))
         console.log(department.name)
     }

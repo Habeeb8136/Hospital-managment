@@ -27,6 +27,10 @@ const EmployeeDetails = () => {
   console.log(DepartmentHead);
 
   function setState(head) {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
     const filteredData = departments.filter((departments) => {
       return departments.name === head;
     });

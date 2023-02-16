@@ -21,6 +21,10 @@ const DepartmentDetails = () => {
     console.log(departmenttEmployees)
     
     function setState(head){
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+          });
         const filteredData=employees.filter((emp)=>{
             return emp.name===head
         })
