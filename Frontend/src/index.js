@@ -5,9 +5,11 @@ import App from './App';
 import { Provider } from 'react-redux'
 import {configureStore} from '@reduxjs/toolkit'
 import userReducer from './features/user';
+import detailsReducer from './features/details'
 const store = configureStore({
   reducer:{
-    user:userReducer
+    user:userReducer,
+    details:detailsReducer,
   }
 })
 
