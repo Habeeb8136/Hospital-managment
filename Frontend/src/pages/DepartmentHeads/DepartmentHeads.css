@@ -1,0 +1,12 @@
+.heads-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 50px ;
+    background-color: black;
+}
+.heads-container h3{
+    text-align: center;
+    color: white;
+}
+
