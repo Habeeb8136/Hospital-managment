@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "radiology",
+        "head": "Brooks Francklin",
+        "founded": "06/03/2017",
+        "img": "https://www.shekhawatihospital.com/wp-content/uploads/2022/02/Radiology-Department.png",
+        "description": "Radiology is the medical discipline that uses medical imaging to diagnose diseases and guide their treatment, within the bodies of humans and other animals."
+    },
+    {
+        "id": 2,
+        "name": "cardiology",
+        "head": "Rochella De Dei",
+        "founded": "24/08/2020",
+        "img": "https://medicine.tulane.edu/sites/medicine.tulane.edu/files/pictures/heart-arteries_800w_compressor.jpg",
+        "description": "Cardiology is a medical specialty and a branch of internal medicine concerned with disorders of the heart. It deals with the diagnosis and treatment of such conditions as congenital heart defects, coronary artery disease, electrophysiology, heart failure and valvular heart disease."
+    },
+    {
+        "id": 3,
+        "name": "paediatric",
+        "head": "Erinn Biskup",
+        "founded": "13/02/2014",
+        "img": "https://img.brainkart.com/subject/306.jpg",
+        "description": "Pediatrics is the branch of medicine dealing with the health and medical care of infants, children, and adolescents from birth up to the age of 18. The word “paediatrics” means “healer of children”; they are derived from two Greek words: (pais = child) and (iatros = doctor or healer)."
+    },
+    {
+        "id": 4,
+        "name": "medicine",
+        "head": "Kissie Brock",
+        "founded": "13/05/2020",
+        "img": "https://www.shutterstock.com/image-photo/colorful-pills-medicines-hand-260nw-672632047.jpg",
+        "description": "practice of discovering, producing, preparing, dispensing, reviewing and monitoring medications, aiming to ensure the safe, effective, and affordable use of medicines. It is a miscellaneous science as it links health sciences with pharmaceutical sciences and natural sciences."
+    },
+    {
+        "id": 5,
+        "name": "emergency",
+        "head": "Sena Bartle",
+        "founded": "03/05/2012",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGsoqPHpfDTLpfNvmvCQaUfZRyDbf7mODng0oCYXuJXMW_UYDbsLmiOmmQFsX8BuP42GI&usqp=CAU",
+        "description": " as in the specific patient, is a relation between a concrete sequence of causally linked events. General causation, e.g. as in disease etiology, means various categories of causal relations between event types."
+    }
+]
