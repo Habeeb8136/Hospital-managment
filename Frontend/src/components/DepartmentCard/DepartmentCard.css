@@ -12,8 +12,10 @@
 }
 .card-left{
     width: 80%;
-    font-size: 15px;
-    line-height: 0;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    text-transform: uppercase;
 }
 .card-right{
     position: relative;
