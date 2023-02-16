@@ -1,0 +1,26 @@
+.department-card{
+    width: 95%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-inline: 10px;
+    box-shadow: 2px 2px 8px grey;
+    cursor: pointer;
+    
+}
+.card-left{
+    width: 80%;
+    font-size: 15px;
+    line-height: 0;
+}
+.card-right{
+    position: relative;
+    border: 1px solid black;
+}
+.department-card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
